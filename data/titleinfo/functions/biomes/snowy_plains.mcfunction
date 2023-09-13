@@ -51,7 +51,7 @@ advancement revoke @s only titleinfo:biomes/snowy_beach
 advancement revoke @s only titleinfo:biomes/snowy_slopes
 advancement revoke @s only titleinfo:biomes/snowy_taiga
 advancement revoke @s only titleinfo:biomes/soul_sand_valley
-advancement revoke @s only titleinfo:biomes/sparce_jungle
+advancement revoke @s only titleinfo:biomes/sparse_jungle
 advancement revoke @s only titleinfo:biomes/stony_peaks
 advancement revoke @s only titleinfo:biomes/stony_shore
 advancement revoke @s only titleinfo:biomes/sunflower_plains
