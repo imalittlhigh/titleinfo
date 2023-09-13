@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/jagged_peaks": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:jagged_peaks"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/jagged_peaks"
+    }
+  }
+  

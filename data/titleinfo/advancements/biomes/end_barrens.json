@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/end_barrens": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:end_barrens"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/end_barrens"
+    }
+  }
+  

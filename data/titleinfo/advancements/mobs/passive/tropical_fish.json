@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "player",
+              "looking_at": {
+                "type": "minecraft:tropical_fish"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:mobs/passive/tropical_fish"
+    }
+  }
+  

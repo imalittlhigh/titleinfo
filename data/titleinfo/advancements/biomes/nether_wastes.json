@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/nether_wastes": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:nether_wastes"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/nether_wastes"
+    }
+  }
+  

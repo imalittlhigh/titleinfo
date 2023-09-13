@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/cold_ocean": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:cold_ocean"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/cold_ocean"
+    }
+  }
+  

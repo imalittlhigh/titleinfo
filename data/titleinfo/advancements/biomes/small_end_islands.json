@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/small_end_islands": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:small_end_islands"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/small_end_islands"
+    }
+  }
+  

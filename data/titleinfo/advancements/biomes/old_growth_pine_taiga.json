@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "titleinfo:biomes/old_growth_pine_taiga": false
+              }
+            },
+            "location": {
+              "biome": "minecraft:old_growth_pine_taiga"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "titleinfo:biomes/old_growth_pine_taiga"
+    }
+  }
+  
